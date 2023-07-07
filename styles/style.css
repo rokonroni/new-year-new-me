@@ -1,0 +1,45 @@
+/* Global style */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* header design */
+header {
+  background: url("../images/banner.png"), lightgray 50% / cover no-repeat;
+  height: 808px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+}
+.header-content {
+  margin: 0px 230px 0px 800px;
+}
+.header-content h1 {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 700;
+}
+.header-content p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 25px 0 30px 40px;
+}
+.header-content button {
+  color: #005fac;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 25px ;
+  border: 1px solid #fff;
+}
+.header-content button:hover {
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
