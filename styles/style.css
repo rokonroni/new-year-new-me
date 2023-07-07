@@ -10,8 +10,10 @@ body {
 
 /* header style*/
 header {
-  background: url("../images/banner.png"), lightgray 50% / cover no-repeat;
-  height: 808px;
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 850px;
   display: flex;
   flex-direction: column;
   justify-content: center;
