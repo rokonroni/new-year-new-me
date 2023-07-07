@@ -1,4 +1,4 @@
-/* Global design */
+/* Global style */
 * {
   margin: 0px;
   padding: 0px;
@@ -8,7 +8,7 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
-/* header design */
+/* header style*/
 header {
   background: url("../images/banner.png"), lightgray 50% / cover no-repeat;
   height: 808px;
@@ -44,9 +44,9 @@ header {
   cursor: pointer;
 }
 
-/* past year section design */
+/* past year section style */
 main .past-year {
-  max-width: 80%;
+  width: 80%;
   margin: auto;
   display: flex;
   justify-content: space-around;
@@ -62,19 +62,51 @@ main .past-year {
   font-weight: 700;
 }
 .past-year-des {
-    margin-top: 25px;
-    margin-bottom: 15px;
+  margin-top: 25px;
+  margin-bottom: 15px;
   color: #444343;
   font-size: 16px;
   font-weight: 400;
 }
 .single-item {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
 }
 .single-item p {
   color: #444343;
   font-size: 16px;
   font-weight: 400;
+}
+/* plan section style */
+.plan {
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+}
+.plan h1 {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.plans {
+  display: flex;
+  justify-content: space-around;
+}
+.plan-item {
+  text-align: center;
+}
+.plan-title {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.plan-des {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
 }
