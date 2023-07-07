@@ -1,4 +1,4 @@
-/* Global style */
+/* Global design */
 * {
   margin: 0px;
   padding: 0px;
@@ -35,11 +35,46 @@ header {
   color: #005fac;
   font-size: 20px;
   font-weight: 600;
-  padding: 20px 25px ;
+  padding: 20px 25px;
   border: 1px solid #fff;
 }
 .header-content button:hover {
-    background: transparent;
-    color: #fff;
-    cursor: pointer;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* past year section design */
+main .past-year {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+.past-year-content {
+  padding-left: 80px;
+}
+.past-year-content h1 {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+.past-year-des {
+    margin-top: 25px;
+    margin-bottom: 15px;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+}
+.single-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.single-item p {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
 }
