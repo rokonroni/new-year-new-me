@@ -21,7 +21,8 @@ header {
   text-align: right;
 }
 .header-content {
-  margin: 0px 230px 0px 800px;
+    width: 620px;
+    margin-left: 550px;
 }
 .header-content h1 {
   color: #fff;
